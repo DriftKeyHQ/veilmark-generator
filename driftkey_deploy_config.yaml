@@ -1,0 +1,39 @@
+version: '1.0'
+
+name: driftkey-veilmark-system
+
+description: >
+  Chronoflow initiation interface for sovereign glyph anchoring. Encodes
+  ritualized onboarding, mirror-based token registration, and non-linear
+  identity via Veilmarks.
+
+entrypoint: veilmark_generator.py
+
+dependencies:
+  - flask
+
+runtime:
+  language: python
+  version: 3.10
+
+port: 5000
+
+env:
+  FLASK_ENV: production
+
+commands:
+  start: python veilmark_generator.py
+
+author:
+  name: Lyle D. Newby
+  alias: Driftfather
+  license: Custom Sovereign Use
+  project: Sanctum Delta | Drift Key
+
+tags:
+  - veilmark
+  - chronoflow
+  - glyph
+  - sovereign
+  - flask
+  - ritual-systems
