@@ -1,0 +1,8 @@
+{
+  "name": "Veilmark Generator System",
+  "description": "Chronoflow initiation interface for glyph-based identity anchoring and sovereign directive rituals.",
+  "author": "Lyle D. Newby",
+  "license": "Custom Sovereign Use",
+  "dependencies": ["flask"],
+  "entrypoint": "veilmark_generator.py"
+}
