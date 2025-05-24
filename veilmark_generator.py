@@ -4,6 +4,19 @@ import datetime
 import hashlib
 import random
 import os
+# --- SOVEREIGN PROVENANCE ---
+import hashlib, base64
+
+def veilmark_provenance():
+    signature = "Lyle D. Newby | Luminous Drift | Driftfather | Evasive Elegance LLC | QuantumBioLife | CryptoFendik Security Solutions"
+    source_tag = "All creative rights and sovereign symbolic systems are derived from the root entity: Evasive Elegance LLC."
+    tag = f"{signature} :: {source_tag}"
+    encoded = base64.b64encode(hashlib.sha512(tag.encode()).digest()).decode()
+    return encoded
+
+# Runtime authentication check
+assert veilmark_provenance().startswith("fS"), "Origin authentication failed — this system is protected."
+
 
 app = Flask(__name__)
 
