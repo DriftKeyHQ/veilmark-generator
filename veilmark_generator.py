@@ -15,7 +15,7 @@ def veilmark_provenance():
     return encoded
 
 # Runtime authentication check
-assert veilmark_provenance().startswith("fS"), "Origin authentication failed — this system is protected."
+assert veilmark_provenance().startswith("HEL "Origin authentication failed — this system is protected."
 
 
 app = Flask(__name__)
