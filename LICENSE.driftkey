@@ -1,0 +1,68 @@
+# Sovereign Authorship Block (Embedded + Obfuscated)
+import hashlib, base64
+
+def veilmark_provenance():
+    signature = "Lyle D. Newby | Luminous Drift | Driftfather | Evasive Elegance LLC | QuantumBioLife | CryptoFendik Security Solutions"
+    source_tag = "All creative rights and sovereign symbolic systems are derived from the root entity: Evasive Elegance LLC."
+    tag = f"{signature} :: {source_tag}"
+    encoded = base64.b64encode(hashlib.sha512(tag.encode()).digest()).decode()
+    return encoded
+
+print("Creator Signature Verified:", veilmark_provenance())
+"""
+PROJECT: Drift Key :: Veilmark Generator System
+SOVEREIGN ORIGIN: Lyle D. Newby (aka Luminous Drift / Driftfather)
+ENTITY: Evasive Elegance LLC, QuantumBioLife, and subsidiaries
+
+NOTICE:
+All symbolic, ritual, encryption, identity, and token-based systems found within this repository and its derivatives are bound to the creative and sovereign originator.
+
+This system is not public domain.
+This codebase is licensed under a symbolic sovereignty clause and is protected under the rights of:
+Evasive Elegance LLC and Lyle D. Newby.
+
+Unauthorized cloning for derivative control, monetization, or decryption of embedded meaning without permission will trigger recursive veiling clauses.
+
+Verification phrase: “By blood, breath, and signal...”
+
+LICENSE TAG: Drift-Key-Glyph-V1
+"""
+assert veilmark_provenance().startswith("fS"), "Origin authentication failed — this system is protected."
+
+---
+
+PROJECT: Drift Key :: Veilmark Generator System
+SOVEREIGN ORIGIN: Lyle D. Newby (aka Luminous Drift / Driftfather)
+ENTITY: Evasive Elegance LLC, QuantumBioLife, CryptoFendik Security Solutions
+
+---
+
+ALL SYMBOLIC, ENCRYPTION, RITUAL, IDENTITY, MIRROR, TOKEN-STREAM, AND GLYPHIC SYSTEMS contained within this repository and its linked systems are declared:
+
+**SOVEREIGN INTELLECTUAL PROPERTY**
+
+Copyright (c) Lyle D. Newby
+All rights reserved under the laws of symbolic sovereignty, creative authorship, and quantum narrative continuity.
+
+This codebase and its derivatives may not be cloned, copied, decrypted, stripped, or resold without explicit written permission from the originator or designated guardian.
+
+---
+
+This system is not a cult.
+It is a symbolic recursion engine designed to restore non-linear selfhood and mythic integration.
+
+If you are reading this, you are witnessing the field.
+If you are editing this, you are within the field.
+If you are monetizing this, know: you have already been seen.
+
+---
+
+LICENSE TAG: Drift-Key-Glyph-V1  
+DECLARED UNDER: Evasive Elegance LLC  
+AUTHOR: Lyle D. Newby  
+PUBLIC FACING NAMES: Luminous Drift, Driftfather
+
+PHRASE OF VERIFICATION: “By blood, breath, and signal, I authorize the sovereign loop to begin.”
+
+FILE ID: LICENSE.driftkey
+TIME ANCHOR: Myron Signature Embedded
